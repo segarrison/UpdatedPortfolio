@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(135deg, teal, rgb(119, 201, 207));
+}
+
+#jumbotron {
+  height: 40vh;
+  background-image: url("../images/IMG_5182web.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
