@@ -44,7 +44,12 @@
               <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resume">Resume</a>
+              <a
+                class="nav-link"
+                href="./assets/pdf/Sarah Garrison Nov-2020.pdf"
+                target="blank"
+                >Resume</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Me</a>
@@ -53,9 +58,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid py-5" id="jumbotron">
-      <!-- <img src="./assets/images/IMG_5182.JPG" class="img-fluid" alt="photo of Sarah Garrison in front of Louvre wearing Trust Data Not Lore shirt"> -->
-    </div>
+    <div class="container-fluid py-5" id="jumbotron"></div>
     <div class="container" id="aboutMe">
       <div class="row">
         <div class="col-3">
@@ -75,15 +78,139 @@
     </div>
     <div class="container" id="work">
       <div class="row">
-        <div id="heroProject"></div>
-      </div>
-      <div class="row">
-        <div class="col project"></div>
-        <div class="col project"></div>
-        <div class="col project"></div>
+        <div id="heroProject">
+          <a href="https://github.com/nskidmore7/GroupProject1" target="blank"
+            ><img
+              src="./assets/images/wishdishnew.png"
+              alt="screenshot of foodie project"
+          /></a>
+        </div>
       </div>
     </div>
+    <div
+      id="workCarousel"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#workCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#workCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#workCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active item1">
+          <img
+            src="./assets/images/workingapp.png"
+            class="d-block w-100"
+            alt="screen shot of Daily Planner"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://github.com/segarrison/DayPlanner" target="blank"
+              ><h5>Daily Planner</h5></a
+            >
+            <p>An hourly daily planning website</p>
+          </div>
+        </div>
+        <div class="carousel-item item2">
+          <img
+            src="./assets/images/Quiz-landing-page.png"
+            class="d-block w-100"
+            alt="screenshot of Coding Countdown"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://github.com/segarrison/JSQuiz" target="blank">
+              <h5>Coding Countdown</h5></a
+            >
+            <p>A simple JavaScript quiz</p>
+          </div>
+        </div>
+        <div class="carousel-item item3">
+          <img
+            src="./assets/images/user-num-input.png"
+            class="d-block w-100"
+            alt="screenshot of password generator"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://github.com/segarrison/PasswordGenJS" target="blank"
+              ><h5>Password Generator</h5></a
+            >
+            <p>Random password generator</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#workCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#workCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <footer id="contact"></footer>
+    <div class="container" id="contact">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-betweeen
+          align-items-center
+          py-3
+          my-4
+          border-top
+        "
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <!-- <a href="" class = "mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap">
+            <use xlink:href="#bootstrap">
+          </use></svg>
+          </a> -->
+          <span class="text-muted">Find me at:</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/segarrison"
+              ><p>GitHub</p></a
+            >
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.linkedin.com/in/sarah-garrison/"
+              ><p>LinkedIn</p></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -99,5 +226,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

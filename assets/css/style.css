@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(135deg, teal, rgb(119, 201, 207));
+  /* background: linear-gradient(135deg, teal, rgb(119, 201, 207)); */
+  background: rgb(206, 255, 255);
 }
 
 #jumbotron {
@@ -7,4 +8,21 @@ body {
   background-image: url("../images/IMG_5182web.jpg");
   background-size: cover;
   background-position: bottom;
+}
+#heroProject img {
+  width: 100%;
+  height: 90%;
+}
+
+#workCarousel {
+  width: 80%;
+  height: 60%;
+  align-content: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
