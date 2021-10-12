@@ -1,6 +1,6 @@
 body {
   /* background: linear-gradient(135deg, teal, rgb(119, 201, 207)); */
-  background: rgb(206, 255, 255);
+  background: rgb(176, 204, 255);
 }
 
 #jumbotron {
@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  color: black;
+}
+p {
+  color: black;
 }
 .carousel-inner img {
   width: 100%;
